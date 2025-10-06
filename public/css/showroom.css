@@ -1,0 +1,26 @@
+/* Eliminar scroll global de la página */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Elimina el scroll global */
+    width: 100%;
+    height: 100%;
+}
+
+.showroom-wrapper {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* oculta cualquier desbordamiento */
+    position: fixed; /* fija el contenedor */
+    top: 0;
+    left: 0;
+}
+
+.showroom-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* recorta manteniendo proporciones */
+    display: block;
+}
