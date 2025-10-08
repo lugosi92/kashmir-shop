@@ -23,8 +23,8 @@
     </div>
 
     <div class="right">
-      <a href="{{ route('login') }}">USER</a>
-      <a href="#" class="cart-indicator">
+      <a href="{{ route('opcion', ['opcion' => 'login']) }}">USER</a>
+      <a href="{{ route('opcion', ['opcion' => 'carrito']) }}" class="cart-indicator">
         CARRITO
         <span class="cart-count">0</span>
       </a>

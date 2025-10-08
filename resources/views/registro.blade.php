@@ -1,12 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Registro</h1>
-</body>
-</html>
+@extends('layouts.cabecera')
+
+@section('contenido')
+{{-- CSS --}}
+<link rel="stylesheet" href="{{ asset('css/cabecera.css') }}">
+<link rel="stylesheet" href="{{ asset('css/login.css') }}">
+
+
+
+<main class="page">
+    <h1>registro</h1>
+    <p>Bienvenido a Kashmir</p>
+</main>
+
+<div class="register-link">
+    <h4>No tienes cuenta, <a href="{{ route('login') }}">regístrate</a></h4>
+</div>
+
+
+@endsection

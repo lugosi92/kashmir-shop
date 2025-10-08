@@ -1,0 +1,15 @@
+/* ============ Reset Básico ============ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #000; /* Fondo negro */
+    color: #fff; /* Letras blancas */
+}
